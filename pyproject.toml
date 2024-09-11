@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "multiclasssyntheticaccessibilityprediction"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+pandas = "^2.2.2"
+numpy = "1.26.0"
+scikit-learn = "^1.5.1"
+catboost = "^1.2.7"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
